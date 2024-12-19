@@ -1,0 +1,43 @@
+.HomeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: #495057;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #212529;
+    margin: 5px 0;
+  }
+  
+  .HomeDiv div {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .HomeDiv div p {
+    text-align: center;
+  }
